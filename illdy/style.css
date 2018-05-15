@@ -8,8 +8,19 @@ Author URI: http://diamondlotuspkmc.com/
    Author's custom styles
    ========================================================================== */
 
+#header .top-header .header-navigation ul li a {
+    color: #054B32;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 #header .is-sticky .top-header {
     background: rgba(4,44,30,0.8);
+}
+#header .is-sticky .top-header .header-navigation ul li a {
+    color: #fff;
+}
+.home #header .top-header .header-navigation ul li a {
+    color: #fff;
 }
 .bottom-footer {
     background-color: #054B32;
@@ -97,4 +108,23 @@ Author URI: http://diamondlotuspkmc.com/
     margin: 5px 0 10px;
     min-height: 42px;
     min-width: 200px;
+}
+.page #blog .blog-post,
+.page #blog .blog-post .blog-post-entry {
+    margin-bottom: 0;
+}
+.page .child-pages {
+    margin-bottom: 40px;
+}
+.page .child-pages .child-page {
+    min-height: 310px;
+    margin-bottom: 20px;
+}
+.page .child-pages .child-page .thumbnail {
+    margin-bottom: 10px;
+}
+.page .child-pages .child-page .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
 }
