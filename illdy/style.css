@@ -1,15 +1,100 @@
 /*
 Theme Name: Illdy
 Theme URI: http://colorlib.com/wp/themes/illdy/
-Author: Colorlib
-Author URI: http://colorlib.com
-Description: Illdy is a stunning multipurpose WordPress theme built based on Bootstrap frontend framework making it fully responsive and mobile friendly. This theme is well suited for business, landing page, portfolio or any other creative websites. This leaves heavy lifting to WordPress Customizer therefore you can create your website on live preview mode. Which means that you can see changes happen on your website in real time as you make them
-Version: 2.1.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: blog, e-commerce, portfolio
-Text Domain: illdy
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
+Author: Diamond Lotus PKMC
+Author URI: http://diamondlotuspkmc.com/
 */
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#header .is-sticky .top-header {
+    background: rgba(4,44,30,0.8);
+}
+.bottom-footer {
+    background-color: #054B32;
+}
+#contact-us .section-content .wpcf7-form p:nth-of-type(4) {
+    text-align: center;
+    margin-top: 0;
+}
+#contact-us .section-content .wpcf7-form p input[type="text"],
+#contact-us .section-content .wpcf7-form p input[type="email"],
+#contact-us .section-content .wpcf7-form p input[type="tel"] {
+    border: 1px solid #005826;
+    background: transparent;
+    border-radius: 20px;
+    color: #000;
+    padding-left: 20px;
+    line-height: 40px;
+    height: 40px;
+    width: calc(100% - 1px);
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+}
+#contact-us .section-content .wpcf7-form p input[type="text"]:hover,
+#contact-us .section-content .wpcf7-form p input[type="email"]:hover,
+#contact-us .section-content .wpcf7-form p input[type="tel"]:hover,
+#contact-us .section-content .wpcf7-form p input[type="text"]:visited,
+#contact-us .section-content .wpcf7-form p input[type="email"]:visited,
+#contact-us .section-content .wpcf7-form p input[type="tel"]:visited,
+#contact-us .section-content .wpcf7-form p input[type="text"]:focus,
+#contact-us .section-content .wpcf7-form p input[type="email"]:focus,
+#contact-us .section-content .wpcf7-form p input[type="tel"]:focus {
+    border: 1px solid #005826;
+}
+#contact-us .section-content .wpcf7-form p .wpcf7-submit {
+    background: #005826;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 95px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    float: none;
+}
+#contact-us .section-content .wpcf7-form p input[type="submit"]:hover {
+    background: #005826;
+}
+.ecp-button a {
+    font-weight: bold;
+}
+.ecp-modal .ecp-content p {
+    text-align: center;
+}
+.ecp-modal .ecp-content input[type="text"],
+.ecp-modal .ecp-content input[type="email"],
+.ecp-modal .ecp-content input[type="tel"] {
+    border: 1px solid #005826;
+    background: transparent;
+    border-radius: 20px;
+    color: #000;
+    padding-left: 20px;
+    line-height: 40px;
+    height: 40px;
+    width: calc(100% - 1px);
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+}
+.ecp-modal .ecp-content input[type=submit] {
+    background-color: #005826;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px 0 10px;
+    min-height: 42px;
+    min-width: 200px;
+}
