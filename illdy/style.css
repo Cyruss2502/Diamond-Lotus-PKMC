@@ -25,8 +25,17 @@ b, strong {
 #header .is-sticky .top-header .header-navigation ul li a {
     color: #fff;
 }
+#header .bottom-header .col-sm-12 {
+    min-height: 114px;
+}
+#header .bottom-header .col-sm-12 h1 {
+    display: none;
+}
 .home #header .top-header .header-navigation ul li a {
     color: #fff;
+}
+.home #header .top-header {
+    background: rgba(4,44,30,0.8);
 }
 .bottom-footer {
     background-color: #054B32;
@@ -81,6 +90,9 @@ b, strong {
 }
 .ecp-button a {
     font-weight: bold;
+}
+.ecp-button.right {
+    bottom: 150px;
 }
 .ecp-modal .ecp-content p {
     text-align: center;
@@ -148,8 +160,8 @@ div.wpcf7 .ajax-loader.is-active {
 }
 .kiwi-article-bar.leaf {
     position: fixed;
-    right: -7px;
-    bottom: calc(50% - 132px);
+    right: -9px;
+    bottom: 248px;
     z-index: 9999;
 }
 .kiwi-article-bar.leaf .kiwi-nw-facebook {
@@ -173,6 +185,21 @@ div.wpcf7 .ajax-loader.is-active {
 }
 .kiwi-article-bar.leaf .kiwi-nw-facebook span.kicon-facebook {
     display: none;
+}
+#projects {
+    padding: 50px 0;
+}
+#projects .section-content .widget_illdy_project a {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #1A693C;
+    background-position: center;
+}
+#latest-news {
+    padding: 60px 0 0px;
+}
+#latest-news .section-header {
+    margin-bottom: 20px;
 }
 #latest-news .section-content .illdy-blog-post-wrap .illdy-blog-post .post {
     background: transparent;

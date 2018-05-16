@@ -331,7 +331,7 @@ if ( ! function_exists( 'illdy_widgets' ) ) {
                 'name'          => __( 'Front page - Projects Sidebar', 'illdy' ),
                 'id'            => 'front-page-projects-sidebar',
                 'description'   => __( 'The widgets added in this sidebar will appear in projects section from front page.', 'illdy' ),
-                'before_widget' => '<div id="%1$s" class="col-sm-3 col-xs-6 no-padding %2$s">',
+                'before_widget' => '<div id="%1$s" class="col-sm-3 col-xs-6 %2$s">',
                 'after_widget'  => '</div>',
                 'before_title'  => '',
                 'after_title'   => '',
