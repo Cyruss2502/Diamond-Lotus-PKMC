@@ -72,6 +72,7 @@ if ( get_theme_mod( 'illdy_sticky_header_enable', false ) ) {
     <meta charset="<?php bloginfo( 'charset' ); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <?php wp_head(); ?>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
 <?php if ( 1 == $preloader_enable && ! is_customize_preview() ) : ?>

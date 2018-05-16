@@ -8,10 +8,16 @@ Author URI: http://diamondlotuspkmc.com/
    Author's custom styles
    ========================================================================== */
 
+body,
+h1, h2, h3, h4, h5, h6,
+b, strong {
+    font-family: 'Alegreya', serif !important;
+}
 #header .top-header .header-navigation ul li a {
     color: #054B32;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: 'Alegreya', serif;
 }
 #header .is-sticky .top-header {
     background: rgba(4,44,30,0.8);
