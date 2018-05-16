@@ -109,6 +109,12 @@ Author URI: http://diamondlotuspkmc.com/
     min-height: 42px;
     min-width: 200px;
 }
+div.wpcf7 .ajax-loader {
+    display: none;
+}
+div.wpcf7 .ajax-loader.is-active {
+    display: inline-block;
+}
 .page #blog .blog-post,
 .page #blog .blog-post .blog-post-entry {
     margin-bottom: 0;
@@ -127,4 +133,36 @@ Author URI: http://diamondlotuspkmc.com/
     font-weight: bold;
     text-transform: uppercase;
     color: #000;
+}
+#contact-us .section-header {
+    margin-bottom: 40px;
+}
+#contact-us .section-content .col-sm-12:first-child .row {
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 767px) {
+    #modal.ecp-modal {
+        width: 90%;
+    }
+    .ecp-button.right {
+        z-index: 9;
+    }
+    #contact-us .section-header {
+        margin-bottom: 25px;
+    }
+    #contact-us .section-content .col-sm-12:first-child .row {
+        margin-bottom: 0;
+    }
+    #contact-us .section-content .col-sm-5, #contact-us .section-content .col-sm-3 {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    header nav.responsive-menu {
+        background: #d8c664;
+    }
+    header nav.responsive-menu ul li a {
+        border-bottom: 1px solid #054B32;
+    }
 }
