@@ -140,6 +140,114 @@ div.wpcf7 .ajax-loader.is-active {
 #contact-us .section-content .col-sm-12:first-child .row {
     margin-bottom: 35px;
 }
+.kiwi-article-bar.leaf {
+    position: fixed;
+    right: -7px;
+    bottom: calc(50% - 132px);
+    z-index: 9999;
+}
+.kiwi-article-bar.leaf .kiwi-nw-facebook {
+    width: 45px;
+    height: 45px;
+    min-width: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+.kiwi-article-bar.leaf .kiwi-nw-facebook,
+.kiwi-article-bar.leaf .kiwi-nw-facebook:focus,
+.kiwi-article-bar.leaf .kiwi-nw-facebook:visited {
+    background: #d3d3d3 url(layout/images/ico-facebook.svg) no-repeat center center;
+}
+.kiwi-article-bar.leaf .kiwi-nw-facebook:hover {
+    background: #2667a8 url(layout/images/ico-facebook-h.svg) no-repeat center center;
+}
+.kiwi-article-bar.leaf .kiwi-nw-facebook span.kicon-facebook {
+    display: none;
+}
+#latest-news .section-content .illdy-blog-post-wrap .illdy-blog-post .post {
+    background: transparent;
+}
+#latest-news .section-content .illdy-blog-post-wrap.left .illdy-blog-post .post {
+    width: auto;
+}
+#latest-news .section-content .illdy-blog-post-wrap.left .illdy-blog-post .post .post-image {
+    display: block;
+    margin-bottom: 15px;
+    height: 260px;
+}
+#latest-news .section-content .illdy-blog-post-wrap.left .illdy-blog-post .post .news-info .date-time {
+    font-style: italic;
+    color: #b1bdb9;
+    line-height: 20px;
+    background: url(layout/images/ico-clock.svg) no-repeat left center;
+    margin: 0 0 5px;
+    padding-left: 30px;
+}
+#latest-news .section-content .illdy-blog-post-wrap.left .illdy-blog-post .post .news-info .title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#latest-news .section-content .illdy-blog-post-wrap.left .illdy-blog-post .post .news-info .title a {
+    color: #d8c664;
+    padding: 0;
+}
+#latest-news .section-content .illdy-blog-post-wrap.left .illdy-blog-post .post .news-info .description {
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: justify;
+}
+#latest-news .section-content .illdy-blog-post-wrap.left .illdy-blog-post .post .news-info .bt-more-detail {
+    color: #829b92;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: url(layout/images/bt-more-detail.svg) no-repeat right 24px center;
+    padding: 7px 55px 7px 35px;
+    border: 1px solid rgba(255,255,255,0.22);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    line-height: 22px;
+}
+#latest-news .section-content .illdy-blog-post-wrap.right .illdy-blog-post .post .image {
+    display: block;
+    margin-bottom: 15px;
+    height: 120px;
+}
+#latest-news .section-content .illdy-blog-post-wrap.right .illdy-blog-post .post {
+    position: relative;
+    margin-bottom: 25px;
+}
+#latest-news .section-content .illdy-blog-post-wrap.right .illdy-blog-post,
+#latest-news .section-content .illdy-blog-post-wrap.right .illdy-blog-post .post {
+    min-height: 0;
+}
+#latest-news .section-content .illdy-blog-post-wrap.right .illdy-blog-post .post .news-info .title {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 20px 0px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    text-align: justify;
+}
+#latest-news .section-content .illdy-blog-post-wrap.right .illdy-blog-post .post .news-info .title a {
+    color: #d8c664;
+}
+#latest-news .section-content .illdy-blog-post-wrap.right .illdy-blog-post .post .news-info .description {
+    font-size: 14px;
+    color: #bec8c0;
+    text-align: justify;
+}
 
 @media screen and (max-width: 767px) {
     #modal.ecp-modal {
