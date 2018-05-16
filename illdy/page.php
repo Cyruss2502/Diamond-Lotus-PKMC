@@ -25,24 +25,26 @@
                 ?>
             </section><!--/#blog-->
             <?php 
-            $args = array(
-                'parent' => $post->ID,
-                'post_type' => 'page',
-                'post_status' => 'publish'
-            ); 
-            $pages = get_pages($args);
+            if( $post->post_name == "du-an") :
+                $args = array(
+                    'parent' => $post->ID,
+                    'post_type' => 'page',
+                    'post_status' => 'publish'
+                ); 
+                $pages = get_pages($args);
             ?>
-            <div class="row child-pages"> 
-                <?php foreach($pages as $page) : ?>
-                    <div class="col-md-3 child-page">
-                        <a href="<?php echo  get_permalink($page->ID); ?>" rel="bookmark" title="<?php echo $page->post_title; ?>">
-                            <span class="thumbnail"><?php echo get_the_post_thumbnail($page->ID, 'small-thumb'); ?></span>
-                            <span class="title"><?php echo $page->post_title; ?></span>
-                            <p class="desc"><?php echo get_post_meta($page->ID, 'desc', true); ?></p>
-                        </a>
-                    </div>
-                <?php endforeach; ?>
-            </div>
+                <div class="row child-pages"> 
+                    <?php foreach($pages as $page) : ?>
+                        <div class="col-md-3 child-page">
+                            <a href="<?php echo  get_permalink($page->ID); ?>" rel="bookmark" title="<?php echo $page->post_title; ?>">
+                                <span class="thumbnail"><?php echo get_the_post_thumbnail($page->ID, 'small-thumb'); ?></span>
+                                <span class="title"><?php echo $page->post_title; ?></span>
+                                <p class="desc"><?php echo get_post_meta($page->ID, 'desc', true); ?></p>
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
         </div><!--/.col-sm-7-->
         <?php if ( is_active_sidebar( 'page-sidebar' ) ) { ?>
             <div class="col-sm-4">
